@@ -1,0 +1,1071 @@
+@import url(https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.header_top_block {
+    background-color: #65256F;
+    padding: 10px 0;
+}
+
+.header_top_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top_right_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 35%;
+}
+
+.power_text {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFB700;
+}
+
+.header_top_right_block p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.header_top_right_block a {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFB700;
+    text-decoration: none;
+}
+
+.header_down_block {
+    padding: 10px 0;
+    box-shadow: 0 5px 14px 0 #8d8d8d;
+}
+
+.header_down_block .container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+
+#header_logo:hover {
+    transform: scale(1.1);
+}
+
+.menu_wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 21px auto;
+}
+
+.menu li {
+    display: flex;
+    list-style: none;
+}
+
+.menu a:hover {
+    color: #FFB700;
+    border-bottom: 2px solid #FFB700;
+    transition: 0.2s;
+}
+
+.menu__item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #2A2828;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.download_price_top {
+    width: 168px;
+    height: 42.63px;
+    border-radius: 3px;
+    color: white;
+    background-color: #65256F;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-family: 600;
+    transition: 0.3s;
+}
+
+.download_price_top:hover {
+    transform: scale(1.2);
+}
+
+.bg {
+    background: url(../images/bg.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.bg_fone {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg_content {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    margin: 0;
+    gap: 30px;
+}
+
+h1 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h1::after {
+    content: "";
+    width: 52px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+#little {
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#leave_order {
+    display: block;
+    width: 300px;
+    height: 60px;
+    background-color: #FFC957;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    border-style: none;
+    transition: 0.3s;
+}
+
+#leave_order:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bg_icon {
+    transition: 0.3s;
+}
+
+.bg_icon:hover {
+    transform: scale(1.2);
+}
+
+.bg_fone .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: "Gilroy", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 62px 0;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cards #card_1,
+.cards #card_2,
+.cards #card_3,
+.cards #card_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 403px;
+    box-shadow: 0px 10px 45px -15px #BCC6C3;
+}
+
+.cards h3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.cards p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E5E5E;
+    text-align: center;
+    margin: auto auto 50px;
+}
+
+.cards a {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #753ED6;
+    text-decoration: none;
+    text-align: center;
+    margin: auto auto 30px;
+}
+
+.cards img {
+    text-align: center;
+}
+
+.our_works .title::before,
+.our_works .title::after {
+    width: 39%;
+}
+
+.wrapper_works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our_works .container {
+    text-align: center;
+}
+
+.images_works {
+    filter: brightness(50%);
+}
+
+.our_works_card {
+    position: relative;
+    height: 302px;
+    flex: 0 1 30%;
+    margin-bottom: 30px;
+}
+
+.our_works_card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.our_works_card p {
+    position: absolute;
+    width: 70%;
+    bottom: 15px;
+    left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.all_examples {
+    margin-top: 30px;
+    width: 368px;
+    height: 52px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #65256F;
+    border-style: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.all_examples:hover {
+    transform: scale(1.2);
+}
+
+.wrapper_production {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.image_production {
+    height: 300px;
+    width: 30%;
+    border-radius: 3px;
+}
+
+.our_price .title::before,
+.our_price .title::after {
+    width: 41%;
+}
+
+.wrapper_price {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.price_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 23%;
+    border-radius: 3px;
+    margin-bottom: 26px;
+}
+
+.price_card img {
+    width: 100%;
+}
+
+.price_card .price_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5858;
+    text-align: left;
+}
+
+.price_card .price_price {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4C1F8C;
+}
+
+.download_price_2 {
+    width: 368px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #65256F;
+    border-radius: 3px;
+    border-style: none;
+    margin: 20px auto 0;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.download_price_2:hover {
+    transform: scale(1.1);
+}
+
+.our_price .container {
+    text-align: center;
+}
+
+.wrapper_clients {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wpapper_clients img {
+    display: flex;
+    position: absolute;
+    height: 130px;
+    width: 15%;
+}
+
+.our_crew .title::before,
+.our_crew .title::after {
+    width: 38%;
+}
+
+.crew_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.crew_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 1 30%;
+}
+
+.crew_cards img {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.crew_name {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.crew_info {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6F6C6C;
+    margin-top: 10px;
+}
+
+.wrapper_leave_free_order {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.leave_order_text {
+    font-family: "Gilroy", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.leave_order_text_2 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #585858;
+    margin: 10px auto 40px;
+}
+
+.your_name,
+.your_phone {
+    width: 315px;
+    height: 47px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #ECE8E8;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #737272;
+    padding-left: 16px;
+    margin: 11px;
+}
+
+.your_phone::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.send {
+    width: 226px;
+    height: 47px;
+    border-radius: 3px;
+    background-color: #65256F;
+    border-style: none;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+.send:hover {
+    transform: scale(1.2);
+}
+
+.footer_info .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer_info {
+    background-color: #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    width: 100%;
+}
+
+.about_company,
+.info,
+.contacts,
+.social_nets {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    text-align: left;
+    align-items: flex-start;
+}
+
+footer h4 {
+    align-items: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+footer p,
+nav {
+    font-family: "Golroy", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #BCBBBB;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+.info_nav_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    color: #BCBBBB;
+}
+
+.info_nav_footer a {
+    text-decoration: none;
+}
+
+.info_nav_footer a:visited {
+    color: #BCBBBB;
+    text-decoration: none;
+}
+
+.nets_link {
+    text-decoration: none;
+    color: #BCBBBB;
+}
+
+/* Page_2_Our_services */
+
+.our_services_page .title::before,
+.our_services_page .title::after {
+    width: 40%;
+}
+
+.wrapper_our_services_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.our_services_four_squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 64%;
+}
+
+.our_services_top_cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.our_service_bottom_cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.our_services_bottom_long_card {
+    width: 64%;
+    height: 342px;
+}
+
+.our_services_bottom_long_card img {
+    width: 100%;
+    height: 100%;
+}
+
+.our_services_cow_card,
+.our_services_bottom_long_card,
+.our_services_page_card {
+    position: relative;
+}
+
+.our_services_cow_card img {
+    width: 100%;
+    height: 100%;
+}
+
+.our_services_page_card p,
+.our_services_bottom_long_card p,
+.our_services_cow_card p {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.our_advantages .title::before,
+.our_advantages .title::after {
+    width: 33%;
+}
+
+/* Page_3_About_company */
+
+.bg_about_company {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about_company_page_3 .title::before,
+.about_company_page_3 .title::after {
+    width: 40%;
+}
+
+.text_about_company {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4c4c54;
+}
+
+.what_we_do .title::before,
+.what_we_do .title::after {
+    width: 33%;
+}
+
+.doing_cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.doing_cards_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 1 16%;
+}
+
+.text_doing_cards {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.our_history {
+    background: url(../images/about_company_background.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 445px;
+    position: relative;
+}
+
+.our_history_background {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.our_history_background h3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.wrapper_advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 1 20%;
+    align-items: center;
+}
+
+.advantages img {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 15px;
+}
+
+.our_advantages_page .title::before,
+.our_advantages_page .title::after {
+    width: 33%;
+}
+
+.advantages p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-family: 400;
+    color: black;
+    text-align: center;
+}
+
+.our_clients_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our_clients_wrapper img {
+    width: 15%;
+}
+
+.title_history {
+    text-align: center;
+    margin-top: 52px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.years {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 13%;
+    text-align: center;
+}
+
+.years h4 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 50px auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #FFB700;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.years p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+#about_us_left_arrow {
+    position: absolute;
+    z-index: +1;
+    bottom: 49%;
+    left: 46px;
+    width: 7px;
+    height: 12px;
+
+}
+
+#about_us_right_arrow {
+    position: absolute;
+    z-index: +1;
+    bottom: 48%;
+    right: 47px;
+    width: 7px;
+    height: 12px;
+}
+
+.arrow_background_left {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 46%;
+    left: 35px;
+}
+
+.arrow_background_right {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 46%;
+    right: 35px;
+}
+
+#scroll_buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+/* Page_4_Contacts */
+.contact_cards_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.contacts_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.contacts_content h3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    margin: 50px 0;
+    text-align: left;
+}
+
+.contacts_cards {
+    display: flex;
+    gap: 15px;
+}
+
+.contact_icon {
+    padding-top: 6px;
+}
+
+.contacts_cards h4 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+
+.contacts_cards p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+}
+
+.contacts_cards {
+    margin-bottom: 40px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.contacts_map {
+    border-radius: 3px;
+}
+
+/* Page_5_Portfolio */
+
+.general_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.portfolio_wrapper_left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    gap: 15px;
+}
+
+.portfolio_wrapper_right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    gap: 15px;
+}
+
+.small_item_wrapper {
+    display: flex;
+    width: 100%;
+    height: 274px;
+    justify-content: space-between;
+}
+
+.big_item {
+    height: 564px;
+    width: 100%;
+}
+
+.long_item {
+    height: 274px;
+    width: 100%;
+}
+
+.small_item {
+    height: 274px;
+    width: 48%;
+}
+
+/* Page_6_Production */
+.wrapper_production_cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hardware_section .title::before,
+.hardware_section .title::after {
+    width: 37%;
+}
+
+.hardware_text {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.hardware_photo {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hardware_photo img {
+    width: 100%;
+    height: 326px;
+}
+
+.hardware_photo p {
+    position: absolute;
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    bottom: 15px;
+    left: 35%;
+}
+
+#hardware_left_arrow {
+    position: absolute;
+    z-index: +1;
+    top: 50%;
+    left: 14px;
+    width: 7px;
+    height: 12px;
+}
+
+#hardware_right_arrow {
+    position: absolute;
+    z-index: +1;
+    top: 50%;
+    right: 14px;
+    width: 7px;
+    height: 12px;
+}
+
+.arrow_background_1 {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    left: 1px;
+}
+
+.arrow_background_2 {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    right: 2px;
+}
