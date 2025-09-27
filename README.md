@@ -33,12 +33,12 @@ This project demonstrates basic front-end development skills using HTML and CSS.
 
 ## 📸 Screenshots
 
-### [Homepage] (./readme_img/page_1_homepage.png)
-### [Services] (./readme_img/page_2_services.png)
-### [About company] (./readme_img/page_3_about_company.png)
-### [Contacts] (./readme_img/page_4_contacts.png)
-### [Portfolio] (./readme_img/page_5_portfolio.png)
-### [Production] (./readme_img/page_6_production.png)
+### ![Homepage](./readme_img/page_1_homepage.png)
+### ![Services](./readme_img/page_2_services.png)
+### ![About company](./readme_img/page_3_about_company.png)
+### ![Contacts](./readme_img/page_4_contacts.png)
+### ![Portfolio](./readme_img/page_5_portfolio.png)
+### ![Production](./readme_img/page_6_production.png)
 
 
 ## 📬 Contact
