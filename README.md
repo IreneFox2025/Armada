@@ -29,7 +29,7 @@ This project demonstrates basic front-end development skills using HTML and CSS.
 - CSS3 (Flexbox)
 
 ## 🚀 Demo
-👉 [View the website](https://irenefox2025.github.io/Armada/index.html)
+[![View site](https://img.shields.io/badge/View%20Demo-Open%20in%20Browser-blue?style=for-the-badge)](https://irenefox2025.github.io/Armada/index.html)
 
 ## 📸 Screenshots
 
