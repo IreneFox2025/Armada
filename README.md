@@ -22,6 +22,7 @@ This project demonstrates basic front-end development skills using HTML and CSS.
 ├── images/                     # Images used on site
 ├── readme_img/              # Screenshots for README
 └── README.md
+```
 
 ## ⚙️ Technologies Used
 - HTML5
@@ -32,7 +33,7 @@ This project demonstrates basic front-end development skills using HTML and CSS.
 
 ## 📸 Screenshots
 
-### Homepage (./readme_img/page_1_homepage.png)
+### Homepage (/readme_img/page_1_homepage.png)
 ### Services (./readme_img/page_2_services.png)
 ### About company (./readme_img/page_3_about_company.png)
 ### Contacts (./readme_img/page_4_contacts.png)
