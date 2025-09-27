@@ -312,7 +312,7 @@ h1::after {
     position: relative;
     height: 302px;
     flex: 0 1 30%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .our_works_card img {
@@ -541,6 +541,8 @@ h1::after {
     transform: scale(1.2);
 }
 
+/* =============== footer =============== */
+
 .footer_info .container {
     display: flex;
     justify-content: space-between;
@@ -564,7 +566,9 @@ h1::after {
     width: 16%;
     text-align: left;
     align-items: flex-start;
-}
+   }
+
+
 
 footer h4 {
     align-items: start;
@@ -577,7 +581,8 @@ footer h4 {
 }
 
 footer p,
-nav {
+nav, 
+a {
     font-family: "Golroy", sans-serif;
     font-size: 14px;
     font-weight: 200;
@@ -586,7 +591,7 @@ nav {
     line-height: 1.5;
 }
 
-
+.contacts,
 .info_nav_footer {
     display: flex;
     flex-direction: column;
@@ -596,10 +601,12 @@ nav {
     color: #BCBBBB;
 }
 
+.contacts a,
 .info_nav_footer a {
     text-decoration: none;
 }
 
+.contacts a:visited,
 .info_nav_footer a:visited {
     color: #BCBBBB;
     text-decoration: none;
@@ -621,14 +628,16 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     position: relative;
+    margin: auto 5%;
 }
 
 .our_services_four_squares {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 3px;
     width: 64%;
 }
 
@@ -671,7 +680,7 @@ nav {
 .our_services_cow_card p {
     position: absolute;
     bottom: 40px;
-    text-align: center;
+    left: 25%;
     font-family: "Gilroy", sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -922,12 +931,17 @@ nav {
     color: #a4a4a4;
 }
 
-.contacts_cards p {
+.contacts_cards p,
+.contacts_cards a {
     font-family: "Gilroy", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: black;
     line-height: 1.5;
+}
+
+.contacts_cards a{
+    text-decoration: none;
 }
 
 .contacts_cards {
@@ -949,32 +963,34 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    gap: 30px;
     margin-bottom: 50px;
 }
 
 .portfolio_wrapper_left {
     display: flex;
     flex-wrap: wrap;
-    width: 48%;
+    width: 50%;
     gap: 15px;
 }
 
 .portfolio_wrapper_right {
     display: flex;
     flex-wrap: wrap;
-    width: 48%;
+    width: 50%;
     gap: 15px;
 }
 
 .small_item_wrapper {
     display: flex;
     width: 100%;
+    gap: 20px;
     height: 274px;
     justify-content: space-between;
 }
 
 .big_item {
-    height: 564px;
+    height: 566px;
     width: 100%;
 }
 
@@ -985,7 +1001,37 @@ nav {
 
 .small_item {
     height: 274px;
-    width: 48%;
+    width: 100%;
+}
+
+.card_bottom_text {
+    position: relative;
+    width: 100%;
+}
+
+.card_middle_text{
+    position: relative;
+    width: 100%;
+}
+
+.card_bottom_text p{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.card_middle_text p{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
 }
 
 /* Page_6_Production */
