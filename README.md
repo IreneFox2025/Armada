@@ -9,6 +9,7 @@ This project demonstrates basic front-end development skills using HTML and CSS.
 - Layout implemented with **Flexbox**
 
 ## 📂 Project Structure
+```bash
 ├── index.html                  # Home page
 ├── pages/
 │   ├── services.html           # Services
