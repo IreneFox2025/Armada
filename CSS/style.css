@@ -65,6 +65,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    transition: 0.3s;
+}
+
+#header_logo{
     transition: 0.2s;
 }
 
@@ -87,6 +91,10 @@
 .menu li {
     display: flex;
     list-style: none;
+}
+
+.menu a{
+    border-bottom: 2px solid transparent;
 }
 
 .menu a:hover {
@@ -627,10 +635,10 @@ a {
 .wrapper_our_services_page {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: center;
+    width: 75%;
     position: relative;
-    margin: auto 5%;
+    margin: auto 10%;
 }
 
 .our_services_four_squares {
@@ -961,10 +969,10 @@ a {
 
 .general_wrapper {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     gap: 30px;
-    margin-bottom: 50px;
+    margin: auto 5% 50px;
 }
 
 .portfolio_wrapper_left {
@@ -1037,8 +1045,9 @@ a {
 /* Page_6_Production */
 .wrapper_production_cards {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
+    margin: auto 5%;
 }
 
 .hardware_section .title::before,
